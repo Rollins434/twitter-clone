@@ -1,0 +1,42 @@
+.post{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 8px solid #a7b9c43a;
+    padding-bottom:10px ;
+}
+
+.postbody{
+    flex: 1;
+    padding: 10px;
+}
+
+.post__avatar{
+    padding:10px;
+}
+
+.postbadge{
+    font-size: 12px !important;
+    color:  #55bcfce0;;
+}
+
+.postheader__span{
+    font-weight: 600;
+    font-size: 10px;
+    color: grey;
+}
+
+.postheader__text > h3{
+    font-size:  15px;
+    margin-bottom: 10px;
+}
+
+.image{
+    border-radius: 20px;
+  
+}
+
+.postfooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}

@@ -1,0 +1,32 @@
+.widgets{
+    flex: 0.3;
+    align-content: center;
+}
+
+.widgets__input{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding:10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #a7b9c43a;
+}
+
+.widgets__input > input{
+    border: none;
+    background-color: #eff1f30e;
+}
+
+.widgets__search{
+    color: #a7b9c488;
+}
+
+.widgets__container{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+
+}
